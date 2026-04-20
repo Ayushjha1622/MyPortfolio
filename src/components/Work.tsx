@@ -5,10 +5,25 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
+    title: "PEIP: Electoral Intelligence Platform",
+    category: "Full-Stack Decision Intelligence System",
+    tools: "React.js, Node.js, MongoDB, Framer Motion, Chart.js",
+    link: "https://predictive-electoral-intelligence-p.vercel.app/",
+    image: "/images/peip_preview.png"
+  },
+  {
+    title: "AEGIS-IV: Tactical Fusion Dashboard",
+    category: "Real-time GEOINT & Intelligence Fusion",
+    tools: "React.js, Node.js, Leaflet.js, Socket.io, Amazon S3",
+    link: "https://fusion-dashboard-beta.vercel.app",
+    image: "/images/aegis_preview.png"
+  },
+  {
     title: "Hail! Mogambo Platform",
     category: "Entertainment Booking Website",
     tools: "React.js, Node.js, Express.js, Web Technologies",
     link: "https://hailmogambo.in/",
+    image: "/images/hailmogambo_preview.png"
   },
   {
     title: "Full-Stack Ride Booking App",
@@ -109,7 +124,7 @@ const Work = () => {
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage link={project.link} alt={project.title} />
+                      <WorkImage link={project.link} alt={project.title} image={project.image} />
                     </div>
                   </div>
                 </div>
