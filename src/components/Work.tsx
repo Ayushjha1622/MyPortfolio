@@ -5,6 +5,20 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
+  title: "Multi-Agent Research System",
+  category: "AI Agent Workflow Automation",
+  tools: "Python, LangChain, Mistral AI, Web Scraping, Multi-Agent Systems, Streamlit",
+  link: "https://generativeai-rzyplpx6mfq2urytynuztw.streamlit.app/",
+  github: "https://github.com/Ayushjha1622/GenerativeAI/tree/main/Multi%20Agent%20System",
+  },
+  {
+title: "AI Video Assistant",
+category: "Generative AI & RAG Platform",
+tools: "React.js, Node.js, Express.js, FastAPI, LangChain, ChromaDB, MongoDB, Whisper, Mistral AI",
+link: "https://github.com/Ayushjha1622/AI-Video-Assistant",
+},
+
+  {
     title: "PEIP: Electoral Intelligence Platform",
     category: "Full-Stack Decision Intelligence System",
     tools: "React.js, Node.js, MongoDB, Framer Motion, Chart.js",
