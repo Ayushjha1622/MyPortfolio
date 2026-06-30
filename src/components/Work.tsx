@@ -5,6 +5,13 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
+    title: "Fashion News Monitoring Agent",
+    category: "AI Intelligence Platform",
+    tools: "React.js, Node.js, FastAPI, Mistral AI, MongoDB, Tailwind CSS",
+    link: "https://fashion-news-agent.vercel.app/",
+    github: "https://github.com/Ayushjha1622/Fashion_news_Agent",
+  },
+  {
   title: "Multi-Agent Research System",
   category: "AI Agent Workflow Automation",
   tools: "Python, LangChain, Mistral AI, Web Scraping, Multi-Agent Systems, Streamlit",
